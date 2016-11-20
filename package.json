@@ -1,0 +1,34 @@
+{
+  "name": "qcharts",
+  "version": "1.0.0",
+  "description": "use config file, configure data charts based on echarts & react component framework technology",
+  "main": "index.js",
+  "dependencies": {
+    "echarts": "^3.3.1",
+    "react": "^15.4.0",
+    "react-echarts": "^0.1.1",
+    "webpack": "^1.13.3"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^1.16.2"
+  },
+  "scripts": {
+    "test": "test",
+    "start": "webpack-dev-server --config webpack.config.js --progress --colors --display-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trelly/Qcharts.git"
+  },
+  "keywords": [
+    "echarts",
+    "react",
+    "configure"
+  ],
+  "author": "terry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trelly/Qcharts/issues"
+  },
+  "homepage": "https://github.com/trelly/Qcharts#readme"
+}
